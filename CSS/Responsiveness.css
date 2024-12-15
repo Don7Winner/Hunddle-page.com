@@ -1,0 +1,144 @@
+@media (max-width: 1416px) {
+  .text {
+    width: 600px;
+  }
+  /* h1 {
+    font-size: 2.2rem;
+  }
+  .text p {
+    font-size: 1rem;
+  } */
+  .img-container {
+    height: 400px;
+  }
+  .img-container img {
+    height: 100%;
+  }
+}
+@media (max-width: 1191px) {
+  h1 {
+    font-size: 2rem;
+  }
+  .text p {
+    font-size: 1rem;
+  }
+  .social-icon {
+    margin-top: 5rem;
+  }
+}
+@media (max-width: 1069px) {
+  .img-container {
+    height: 300px;
+  }
+  .text {
+    width: 625px;
+  }
+}
+@media (max-width: 936px) {
+  .img-container {
+    height: 250px;
+  }
+  h1 {
+    font-size: 1.6rem;
+  }
+  .text p {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 814px) {
+  main {
+    padding-right: 2rem;
+  }
+  .social-icon {
+    /* align-items: flex-start; */
+    justify-content: center;
+    position: relative;
+    right: 0;
+  }
+}
+@media (max-width: 720px) {
+  main {
+    padding: 2rem 1rem;
+  }
+  .Huddle-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .img-container {
+    height: 350px;
+  }
+  .text {
+    width: 500px;
+  }
+  h1 {
+    font-size: 2.8rem;
+  }
+  .text p {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 554px) {
+  .logo-container {
+    height: 50px;
+  }
+  .logo-container img {
+    height: 100%;
+  }
+  .img-container {
+    height: 300px;
+  }
+  .text {
+    width: 400px;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  .text p {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 460px) {
+  .logo-container img {
+    height: 100%;
+  }
+  .img-container {
+    height: 250px;
+  }
+  .text {
+    width: 350px;
+  }
+  h1 {
+    font-size: 1.6rem;
+  }
+  .text p {
+    font-size: 1rem;
+  }
+  .Huddle-content {
+    gap: 2rem;
+  }
+}
+@media (max-width: 375px) {
+  body {
+    background: linear-gradient(hsl(257, 40%, 49%), hsl(257, 40%, 49%)),
+      url(../images/bg-mobile.svg);
+  }
+  .logo-container {
+    height: 40px;
+  }
+  .img-container {
+    height: 200px;
+  }
+  .text {
+    width: 300px;
+  }
+  h1 {
+    font-size: 1.4rem;
+  }
+  .text p {
+    font-size: 1rem;
+  }
+  .Huddle-content {
+    gap: 1rem;
+  }
+}
